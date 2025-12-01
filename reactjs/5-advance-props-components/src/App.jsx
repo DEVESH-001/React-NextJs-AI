@@ -2,7 +2,7 @@ import BasicProps from "./components/BasicProps";
 import ChildrenProps from "./components/ChildrenProps";
 import ComplexProps from "./components/ComplexProps";
 import RefProps from "./components/RefProps";
-import ThemeToggler from "./components/ThemeToggler";
+import ThemeToggler, { ThemeProvider } from "./components/ThemeToggler";
 
 function Navigation() {
   const isDark = true;
@@ -72,9 +72,9 @@ function AppContent() {
 
 function App() {
   return (
-    <>
+    <ThemeProvider> {/* ThemeProvider component wraps the app content */}
       <AppContent />
-    </>
+    </ThemeProvider>
   );
 }
 
