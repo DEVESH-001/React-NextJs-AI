@@ -27,37 +27,58 @@ export default function AboutPage() {
     </div>
   );
 }
-```
+---
 
-## 2. **Dynamic Routes**
+### 2. Dynamic Routes
 
-Use square brackets `[param]` for dynamic segments.
+**Concept:** Use square brackets `[param]` for dynamic segments that can match any value in the URL.
+
+**Implementation in this project:**
 ```
 app/
-└── blog/
-    ├── page.tsx          → /blog
-    └── [slug]/
-        └── page.tsx      → /blog/my-first-post
-Example: app/blog/[slug]/page.tsx
+└── products/
+    └── [id]/
+        ├── page.jsx                    → /products/:id (e.g., /products/123)
+        └── reviews/
+            └── [reviewid]/
+                └── page.jsx            → /products/:id/reviews/:reviewid
+```
 
-tsx
-export default function BlogPost({ params }: { params: { slug: string } }) {
+**Example:** `app/products/[id]/page.jsx`
+```jsx
+import React from "react";
+
+async function Page({ params }) {
+  const { id } = await params;
+  return <div>Product ID: {id}</div>;
+}
+
+export default Page;
+```
+
+**Nested Dynamic Route:** `app/products/[id]/reviews/[reviewid]/page.jsx`
+```jsx
+import React from "react";
+
+async function ProductReviewPage({ params }) {
+  const { id, reviewid } = await params;
+  
   return (
     <div>
-      <h1>Blog Post: {params.slug}</h1>
-      <p>This is the post content for {params.slug}</p>
+      <h2>Product ID: {id}</h2>
+      <p>Review ID: {reviewid}</p>
     </div>
   );
 }
 
-// Generate static pages at build time
-export async function generateStaticParams() {
-  const posts = ['first-post', 'second-post', 'third-post'];
-  
-  return posts.map((slug) => ({
-    slug: slug,
-  }));
-}
+export default ProductReviewPage;
+```
+
+**Key Points:**
+- `[id]` in the folder name creates a dynamic segment
+- Access params using `await params` in Next.js 15
+- You can have multiple dynamic segments in a route
+- Example URLs: `/products/laptop`, `/products/123/reviews/456`
 ```
 
 ## 3. **Catch-all Routes**
