@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXTJS-Hooks
 
-## Getting Started
+1. Caching & Fetch API [https://nextjs.org/docs/15/app/api-reference/functions/fetch]
 
-First, run the development server:
+- useful for data fetching in Next.js applications, especially when dealing with server-side rendering (SSR) and static site generation (SSG).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. notFound [https://nextjs.org/docs/app/api-reference/functions/not-found]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- used to handle scenarios where a requested resource is not found, allowing developers to return a 404 page or redirect users appropriately.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. useParams [https://nextjs.org/docs/app/api-reference/functions/use-params]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- a hook that allows you to access the dynamic parameters of a route in Next.js applications, making it easier to work with dynamic routes and extract parameters from the URL. example: `/posts/[id]` where `id` is a dynamic parameter.
 
-## Learn More
+4. usePathname [https://nextjs.org/docs/app/api-reference/functions/use-pathname]
 
-To learn more about Next.js, take a look at the following resources:
+- a hook that provides the current pathname of the application, allowing developers to access and manipulate the URL path easily. example: if the current URL is `/posts/123`, `usePathname` would return `/posts/123`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. useSearchParams [https://nextjs.org/docs/app/api-reference/functions/use-search-params]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- dynamic filtering
+- deep linking
+- pagination & sorting
+- multi_value_params: tags=js&tags=react
