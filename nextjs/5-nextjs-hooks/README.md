@@ -22,3 +22,13 @@
 - deep linking
 - pagination & sorting
 - multi_value_params: tags=js&tags=react
+
+6. useRouter [https://nextjs.org/docs/app/api-reference/functions/use-router]
+
+- a hook that provides access to the Next.js router object, allowing developers to programmatically navigate between pages, access query parameters, and manage the browser history.
+
+- before: home -> login ->prodcutPage <-current
+
+7. useRedirect [https://nextjs.org/docs/app/api-reference/functions/use-redirect]
+
+- a hook that allows you to perform client-side redirects in Next.js applications, enabling developers to navigate users to different pages or routes based on certain conditions or events.
