@@ -1,0 +1,56 @@
+[02:18:44.367] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.400] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.421] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.451] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.589] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.604] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:44.901] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
+[02:18:45.043] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/on-demand-entry-handler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/dev/hot-reloader-turbopack.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/router-server.js
+- /Users/devesh/Developer/React-NextJs/React-NextJs-AI/nextjs/6-contact-form/node_modules/next/dist/server/lib/start-server.js
