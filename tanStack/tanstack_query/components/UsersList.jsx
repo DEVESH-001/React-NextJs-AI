@@ -34,6 +34,7 @@ const UsersList = () => {
     if (isError) {
     return <div className="text-2xl">Error: {error.message}</div>;
     }
+console.log(users);
 
   return (
     <Card>

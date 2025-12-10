@@ -9,6 +9,14 @@ export async function GET() {
   return Response.json(users);
 }
 
-export async function POST(){
-  
+export async function POST(request) {
+  const body = await request.json();
+  const newUser = {
+    id: Date.now(),
+    name: body.name,
+    email: body.email,
+  };
+  users.push(newUser);
+  await new Promise((resolve) => setTimeout(resolve, 500));
+  return Response.json(newUser);
 }
