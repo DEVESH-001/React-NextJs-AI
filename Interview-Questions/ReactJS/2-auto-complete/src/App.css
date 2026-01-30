@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.typehead-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.suggestions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.strike{
+  text-decoration: line-through;
+}
